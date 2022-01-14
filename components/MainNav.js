@@ -4,7 +4,7 @@ export default function MainNav() {
   return (
     <nav className='navbar navbar-expand-lg fixed-top' id='mainNav'>
       <div className='container'>
-        <a className='navbar-brand' href='index.html'>
+        <a className='navbar-brand' href='/'>
           Doktor Demo
         </a>
         <button
@@ -20,22 +20,22 @@ export default function MainNav() {
         <div className='collapse navbar-collapse' id='navbarResponsive'>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
-              <a className='nav-link' href='index.html'>
+              <a className='nav-link' href='/'>
                 ANASAYFA
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='about.html'>
+              <a className='nav-link' href='/about'>
                 HAKKIMIZDA
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='contact.html'>
+              <a className='nav-link' href='/contact'>
                 ILETISIM
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='post.html'>
+              <a className='nav-link' href='/posts'>
                 MAKALELERIMIZ
               </a>
             </li>
