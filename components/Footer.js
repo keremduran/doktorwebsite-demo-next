@@ -3,7 +3,6 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer>
-      <section className='team-boxed' />
       <div className='container'>
         <div className='row'>
           <div className='col-md-10 col-lg-8 mx-auto'>
