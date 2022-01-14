@@ -23,13 +23,4 @@ function Layout(props) {
   );
 }
 
-export async function getServerSideProps(context) {
-  const router = useRouter();
-  const data = fetchApi(router.pathname);
-  console.log('TEST', data);
-  return {
-    data,
-  };
-}
-
 export default Layout;

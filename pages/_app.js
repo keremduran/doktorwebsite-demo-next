@@ -10,4 +10,13 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
+// export async function getStaticProps(context) {
+//   const router = useRouter();
+//   const data = fetchApi(router.pathname);
+//   console.log('TEST', data);
+//   return {
+//     data,
+//   };
+// }
+
 export default MyApp;
