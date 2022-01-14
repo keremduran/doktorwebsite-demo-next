@@ -1,24 +1,9 @@
 import React from 'react';
+import Header from '../components/Header';
 
-export default function about() {
+export default function About(props) {
   return (
     <div>
-      <header
-        className='masthead h-75 d-flex justify-content-center align-items-center'
-        style={{ backgroundImage: 'url("assets/img/AboutImageMain.jpg")' }}
-      >
-        <div className='overlay' />
-        <div className='container' style={{ margin: 'auto' }}>
-          <div className='row'>
-            <div className='col-md-10 col-lg-8 mx-auto position-relative'>
-              <div className='site-heading' style={{ padding: 0 }}>
-                <h1 style={{ height: '99px', padding: '10px' }}>Hakkimizda</h1>
-                <span className='subheading'>Yaptiklarimiz</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
       <section className='features-boxed'>
         <div className='container'>
           <div className='row'>
