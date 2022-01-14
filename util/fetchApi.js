@@ -43,6 +43,5 @@ export const fetchApi = (url) => {
       props = TEST_DATA.default;
       break;
   }
-  console.log('FETCHAPI', url, props);
   return props;
 };
