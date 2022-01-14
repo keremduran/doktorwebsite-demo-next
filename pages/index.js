@@ -3,7 +3,6 @@ import Header from '../components/Header';
 export default function Home(props) {
   return (
     <div>
-      <Header />
       <section className='home-page-content'>
         <section className='testimonials-clean'>
           <div className='container'>
@@ -490,18 +489,4 @@ export default function Home(props) {
       </section>
     </div>
   );
-}
-
-export async function getServerSideProps(context) {
-  //Will be fetched through Dato API
-  const defaultProps = {
-    imgUrl: 'assets/img/DoctorImage.jpg',
-    heading: `Doktor`,
-    heading2: `Ad Soyad`,
-    subheading: 'Uzmanlik',
-    buttonText: 'Devam et',
-  };
-  return {
-    props: defaultProps,
-  };
 }
