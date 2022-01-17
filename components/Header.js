@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function Header(props) {
+export default function Header({ props }) {
   return (
     <header
       className='masthead d-flex justify-content-center align-items-center'
       style={{
-        backgroundImage: `url(${props.imgUrl})`,
+        backgroundImage: `url(${props.image.url})`,
         backgroundPosition: '50% 20%',
         height: '90vh',
       }}
