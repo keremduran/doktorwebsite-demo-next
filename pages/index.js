@@ -1,19 +1,16 @@
-import { request } from '../lib/datocms';
-import { gql } from 'graphql-request';
-import Testimonials from '../components/Sections/Testimonials';
-import NewsAndArticles from '../components/Sections/NewsAndArticles';
-import HighlightPhone from '../components/Sections/HighlightPhone';
-import CompanyIntro from '../components/Sections/CompanyIntro';
-import Header from '../components/Header';
+import { request } from "../lib/datocms";
+import { gql } from "graphql-request";
+import Testimonials from "../components/Sections/Testimonials";
+import NewsAndArticles from "../components/Sections/NewsAndArticles";
+import HighlightPhone from "../components/Sections/HighlightPhone";
+import CompanyIntro from "../components/Sections/CompanyIntro";
 
 export default function Home({ data }) {
-  const headerData = data?.allPages[0]?.header[0];
   return (
     <main>
-      <Header props={headerData} />
-      <section className='home-page container'>
+      <section className="home-page container">
         <Testimonials />
-        <section className='inner-content'>
+        <section className="inner-content mx-1">
           <HighlightPhone />
           <CompanyIntro />
         </section>
