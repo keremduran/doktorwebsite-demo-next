@@ -1,87 +1,88 @@
-import React from 'react';
-import Header from '../components/Header';
+import { request } from "../lib/datocms";
+import { gql } from "graphql-request";
+import React from "react";
 
-export default function About(props) {
+export default function About({ data }) {
   return (
     <div>
-      <section className='features-boxed'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-md-12'>
-              <section className='team-clean'>
-                <div className='container'>
-                  <div className='intro'>
-                    <h2 className='text-center'>Takim</h2>
-                    <p className='text-center'>
+      <section className="features-boxed">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <section className="team-clean">
+                <div className="container">
+                  <div className="intro">
+                    <h2 className="text-center">Takim</h2>
+                    <p className="text-center">
                       Nunc luctus in metus eget fringilla. Aliquam sed justo
                       ligula. Vestibulum nibh erat, pellentesque ut laoreet
-                      vitae.{' '}
+                      vitae.{" "}
                     </p>
                   </div>
-                  <div className='row people'>
-                    <div className='col-md-6 col-lg-4 item'>
-                      <img className='rounded-circle' src='assets/img/1.jpg' />
-                      <h3 className='name'>Ben Johnson</h3>
-                      <p className='title'>Musician</p>
-                      <p className='description'>
+                  <div className="row people">
+                    <div className="col-md-6 col-lg-4 item">
+                      <img className="rounded-circle" src="assets/img/1.jpg" />
+                      <h3 className="name">Ben Johnson</h3>
+                      <p className="title">Musician</p>
+                      <p className="description">
                         Aenean tortor est, vulputate quis leo in, vehicula
                         rhoncus lacus. Praesent aliquam in tellus eu gravida.
                         Aliquam varius finibus est, et interdum justo suscipit
-                        id. Etiam dictum feugiat tellus, a semper massa.{' '}
+                        id. Etiam dictum feugiat tellus, a semper massa.{" "}
                       </p>
-                      <div className='social'>
-                        <a href='#'>
-                          <i className='fa fa-facebook-official' />
+                      <div className="social">
+                        <a href="#">
+                          <i className="fa fa-facebook-official" />
                         </a>
-                        <a href='#'>
-                          <i className='fa fa-twitter' />
+                        <a href="#">
+                          <i className="fa fa-twitter" />
                         </a>
-                        <a href='#'>
-                          <i className='fa fa-instagram' />
+                        <a href="#">
+                          <i className="fa fa-instagram" />
                         </a>
                       </div>
                     </div>
-                    <div className='col-md-6 col-lg-4 item'>
-                      <img className='rounded-circle' src='assets/img/2.jpg' />
-                      <h3 className='name'>Emily Clark</h3>
-                      <p className='title'>Artist</p>
-                      <p className='description'>
+                    <div className="col-md-6 col-lg-4 item">
+                      <img className="rounded-circle" src="assets/img/2.jpg" />
+                      <h3 className="name">Emily Clark</h3>
+                      <p className="title">Artist</p>
+                      <p className="description">
                         Aenean tortor est, vulputate quis leo in, vehicula
                         rhoncus lacus. Praesent aliquam in tellus eu gravida.
                         Aliquam varius finibus est, et interdum justo suscipit
-                        id. Etiam dictum feugiat tellus, a semper massa.{' '}
+                        id. Etiam dictum feugiat tellus, a semper massa.{" "}
                       </p>
-                      <div className='social'>
-                        <a href='#'>
-                          <i className='fa fa-facebook-official' />
+                      <div className="social">
+                        <a href="#">
+                          <i className="fa fa-facebook-official" />
                         </a>
-                        <a href='#'>
-                          <i className='fa fa-twitter' />
+                        <a href="#">
+                          <i className="fa fa-twitter" />
                         </a>
-                        <a href='#'>
-                          <i className='fa fa-instagram' />
+                        <a href="#">
+                          <i className="fa fa-instagram" />
                         </a>
                       </div>
                     </div>
-                    <div className='col-md-6 col-lg-4 item'>
-                      <img className='rounded-circle' src='assets/img/3.jpg' />
-                      <h3 className='name'>Carl Kent</h3>
-                      <p className='title'>Stylist</p>
-                      <p className='description'>
+                    <div className="col-md-6 col-lg-4 item">
+                      <img className="rounded-circle" src="assets/img/3.jpg" />
+                      <h3 className="name">Carl Kent</h3>
+                      <p className="title">Stylist</p>
+                      <p className="description">
                         Aenean tortor est, vulputate quis leo in, vehicula
                         rhoncus lacus. Praesent aliquam in tellus eu gravida.
                         Aliquam varius finibus est, et interdum justo suscipit
-                        id. Etiam dictum feugiat tellus, a semper massa.{' '}
+                        id. Etiam dictum feugiat tellus, a semper massa.{" "}
                       </p>
-                      <div className='social'>
-                        <a href='#'>
-                          <i className='fa fa-facebook-official' />
+                      <div className="social">
+                        <a href="#">
+                          <i className="fa fa-facebook-official" />
                         </a>
-                        <a href='#'>
-                          <i className='fa fa-twitter' />
+                        <a href="#">
+                          <i className="fa fa-twitter" />
                         </a>
-                        <a href='#'>
-                          <i className='fa fa-instagram' />
+                        <a href="#">
+                          <i className="fa fa-instagram" />
                         </a>
                       </div>
                     </div>
@@ -91,89 +92,89 @@ export default function About(props) {
             </div>
           </div>
         </div>
-        <div className='container'>
-          <div className='intro'>
-            <h2 className='text-center'>Features </h2>
-            <p className='text-center'>
+        <div className="container">
+          <div className="intro">
+            <h2 className="text-center">Features </h2>
+            <p className="text-center">
               Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
               Vestibulum nibh erat, pellentesque ut laoreet vitae.
             </p>
           </div>
-          <div className='row justify-content-center features'>
-            <div className='col-sm-6 col-md-5 col-lg-4 item'>
-              <div className='box'>
-                <i className='fa fa-map-marker icon' />
-                <h3 className='name'>Works everywhere</h3>
-                <p className='description'>
+          <div className="row justify-content-center features">
+            <div className="col-sm-6 col-md-5 col-lg-4 item">
+              <div className="box">
+                <i className="fa fa-map-marker icon" />
+                <h3 className="name">Works everywhere</h3>
+                <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
-                <a className='learn-more' href='#'>
+                <a className="learn-more" href="#">
                   Learn more »
                 </a>
               </div>
             </div>
-            <div className='col-sm-6 col-md-5 col-lg-4 item'>
-              <div className='box'>
-                <i className='fa fa-clock-o icon' />
-                <h3 className='name'>Always available</h3>
-                <p className='description'>
+            <div className="col-sm-6 col-md-5 col-lg-4 item">
+              <div className="box">
+                <i className="fa fa-clock-o icon" />
+                <h3 className="name">Always available</h3>
+                <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
-                <a className='learn-more' href='#'>
+                <a className="learn-more" href="#">
                   Learn more »
                 </a>
               </div>
             </div>
-            <div className='col-sm-6 col-md-5 col-lg-4 item'>
-              <div className='box'>
-                <i className='fa fa-list-alt icon' />
-                <h3 className='name'>Customizable </h3>
-                <p className='description'>
+            <div className="col-sm-6 col-md-5 col-lg-4 item">
+              <div className="box">
+                <i className="fa fa-list-alt icon" />
+                <h3 className="name">Customizable </h3>
+                <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
-                <a className='learn-more' href='#'>
+                <a className="learn-more" href="#">
                   Learn more »
                 </a>
               </div>
             </div>
-            <div className='col-sm-6 col-md-5 col-lg-4 item'>
-              <div className='box'>
-                <i className='fa fa-leaf icon' />
-                <h3 className='name'>Organic </h3>
-                <p className='description'>
+            <div className="col-sm-6 col-md-5 col-lg-4 item">
+              <div className="box">
+                <i className="fa fa-leaf icon" />
+                <h3 className="name">Organic </h3>
+                <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
-                <a className='learn-more' href='#'>
+                <a className="learn-more" href="#">
                   Learn more »
                 </a>
               </div>
             </div>
-            <div className='col-sm-6 col-md-5 col-lg-4 item'>
-              <div className='box'>
-                <i className='fa fa-plane icon' />
-                <h3 className='name'>Fast </h3>
-                <p className='description'>
+            <div className="col-sm-6 col-md-5 col-lg-4 item">
+              <div className="box">
+                <i className="fa fa-plane icon" />
+                <h3 className="name">Fast </h3>
+                <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
-                <a className='learn-more' href='#'>
+                <a className="learn-more" href="#">
                   Learn more »
                 </a>
               </div>
             </div>
-            <div className='col-sm-6 col-md-5 col-lg-4 item'>
-              <div className='box'>
-                <i className='fa fa-phone icon' />
-                <h3 className='name'>Mobile-first</h3>
-                <p className='description'>
+            <div className="col-sm-6 col-md-5 col-lg-4 item">
+              <div className="box">
+                <i className="fa fa-phone icon" />
+                <h3 className="name">Mobile-first</h3>
+                <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
-                <a className='learn-more' href='#'>
+                <a className="learn-more" href="#">
                   Learn more »
                 </a>
               </div>
@@ -181,9 +182,9 @@ export default function About(props) {
           </div>
         </div>
       </section>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-md-10 col-lg-8 mx-auto'>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-10 col-lg-8 mx-auto">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
               nostrum ullam eveniet pariatur voluptates odit, fuga atque ea
@@ -208,4 +209,33 @@ export default function About(props) {
       <hr />
     </div>
   );
+}
+
+const ABOUT_PAGE_QUERY = gql`
+  query MyQuery {
+    allPages(filter: { slug: { eq: "about" } }) {
+      _createdAt
+      header {
+        buttonText
+        createdAt
+        heading
+        id
+        image {
+          url
+        }
+        subheading
+      }
+      id
+    }
+  }
+`;
+
+export async function getStaticProps() {
+  const data = await request({
+    query: ABOUT_PAGE_QUERY,
+    variables: { limit: 10 },
+  });
+  return {
+    props: { data },
+  };
 }
