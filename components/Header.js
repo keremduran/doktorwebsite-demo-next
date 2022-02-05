@@ -5,7 +5,7 @@ export default function Header({ props }) {
     <header
       className='masthead d-flex justify-content-center align-items-center'
       style={{
-        backgroundImage: `url(${props.image.url})`,
+        backgroundImage: `url(${props?.image?.url})`,
         backgroundPosition: '50% 20%',
         height: '90vh',
       }}
@@ -14,22 +14,22 @@ export default function Header({ props }) {
       <div className='col-md-10 col-lg-8 offset-sm-4 position-relative flex-column justify-content-center align-items-center'>
         <div className='p-0 site-heading container'>
           <h1 className='mt-10'>
-            {props.heading}
-            {props.heading2 && (
+            {props?.heading}
+            {props?.heading2 && (
               <span className='heading2'>
                 <br />
-                {props.heading2}
+                {props?.heading2}
               </span>
             )}
-            {props.subheading && (
+            {props?.subheading && (
               <span className='subheading'>{props.subheading}</span>
             )}
           </h1>
         </div>
-        {props.buttonText && (
+        {props?.buttonText && (
           <div className='continue-button d-flex'>
             <button className='btn btn-dark m-2 mx-auto' type='button'>
-              {props.buttonText}
+              {props?.buttonText}
             </button>
           </div>
         )}
