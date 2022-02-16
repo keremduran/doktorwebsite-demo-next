@@ -8,9 +8,9 @@ import CompanyIntro from "../components/Sections/CompanyIntro";
 export default function Home({ data }) {
   return (
     <main>
-      <section className="home-page container">
+      <section className="home-page">
         <Testimonials />
-        <section className="inner-content mx-1">
+        <section className="inner-content">
           <HighlightPhone />
           <CompanyIntro />
         </section>
@@ -36,10 +36,6 @@ const HOMEPAGE_QUERY = gql`
         subheading
       }
       id
-    }
-    allPosts {
-      id
-      title
     }
   }
 `;

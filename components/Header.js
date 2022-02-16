@@ -24,6 +24,9 @@ export default function Header({ props }) {
             {props?.subheading && (
               <span className='subheading'>{props.subheading}</span>
             )}
+            {props?.subheading2 && (
+              <span className='subheading'>{props.subheading2}</span>
+            )}
           </h1>
         </div>
         {props?.buttonText && (

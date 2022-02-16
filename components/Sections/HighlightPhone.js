@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function HighlightPhone() {
   return (
-    <section className='quick-actions highlight-phone px-2'>
+    <section className='quick-actions highlight-phone px-5 d-flex justify-content-center'>
       <div className='row'>
-        <div className='col-md-8'>
+        <div className='col-md-8 col-sm-12'>
           <div className='mb-5'>
             <div className='intro'>
               <h2>Bize Ulas</h2>
