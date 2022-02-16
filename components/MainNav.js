@@ -36,9 +36,9 @@ export default function MainNav() {
               </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/posts'>
-                MAKALELERIMIZ
-              </a>
+              <Link className='nav-link' href='/posts'>
+                <a>MAKALELERIMIZ</a>
+              </Link>
             </li>
           </ul>
         </div>

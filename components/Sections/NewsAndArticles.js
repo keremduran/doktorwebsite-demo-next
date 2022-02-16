@@ -38,8 +38,8 @@ export default function NewsAndArticles() {
             <div className='post-preview'>
               <a href='#'>
                 <h2 className='post-title'>
-                  I believe every human has a finite number of heartbeats. I
-                  don't intend to waste any of mine.
+                  I believe every human has a finite number of heartbeats. I do
+                  not intend to waste any of mine.
                 </h2>
               </a>
               <p className='post-meta'>
