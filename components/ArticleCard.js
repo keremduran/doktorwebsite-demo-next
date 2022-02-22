@@ -20,7 +20,7 @@ export default function ArticleCard({ props }) {
         <div className='col-md-8'>
           <div className='card-body'>
             <h5 className='card-title'>{props.title}</h5>
-            <span class='badge bg-secondary'>
+            <span className='badge bg-secondary'>
               {props.category._seoMetaTags[0].content}
             </span>
             <p className='card-text'>{textPreview}...</p>
