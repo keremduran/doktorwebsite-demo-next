@@ -22,10 +22,10 @@ export default function Header({ props }) {
               </span>
             )}
             {props?.subheading && (
-              <span className='subheading'>{props.subheading}</span>
+              <span className='subheading'>{props?.subheading}</span>
             )}
             {props?.subheading2 && (
-              <span className='subheading'>{props.subheading2}</span>
+              <span className='subheading'>{props?.subheading2}</span>
             )}
           </h1>
         </div>

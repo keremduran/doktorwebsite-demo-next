@@ -2,27 +2,17 @@ import React from "react";
 import Link from "next/link";
 import { request } from "../../lib/datocms";
 import { gql } from "graphql-request";
+import ArticleCard from "../../components/ArticleCard";
 
 function Index({ data }) {
   return (
     <section className="post-list">
-      <form className="m-3 search-form w-25" target="_self">
-        <div className="d-flex align-items-center">
-          <label className="form-label d-flex m-4 " htmlFor="search-field">
-            <i className="fa fa-search" />
-          </label>
-          <input
-            id="search-field"
-            className="form-control search-field"
-            placeholder="Ara"
-            type="search"
-            name="search"
-          />
-        </div>
-      </form>
-      <ul className="list-group">
+      <ul className="list-group px-4">
         {data.allPosts.map((post) => (
-          <li className="list-group-item m-3" key={post.id + "1"}>
+          <li
+            className="list-group-item list-group-item-action"
+            key={post.id + "1"}
+          >
             <Link
               key={post.id}
               href={{
@@ -31,12 +21,7 @@ function Index({ data }) {
               }}
             >
               <a>
-                <div>
-                  <h3>{post.title}</h3>
-                  <span>
-                    {post.date} | {post.author.name}
-                  </span>
-                </div>
+                <ArticleCard key={post.id} props={post} />
               </a>
             </Link>
           </li>
@@ -69,12 +54,23 @@ const POSTS_PAGE_QUERY = gql`
       author {
         id
         name
+        picture {
+          url
+        }
       }
       title
       content {
         value
       }
       slug
+      coverImage {
+        url
+      }
+      category {
+        _seoMetaTags {
+          content
+        }
+      }
     }
   }
 `;

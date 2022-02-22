@@ -24,8 +24,8 @@ export default function Testimonials() {
             </div>
             <div className='author'>
               <img className='rounded-circle' src='assets/img/1.jpg' />
-              <h5 className='name'>Ben Johnson</h5>
-              <p className='title'>CEO of Company Inc.</p>
+              <h5 className='name'>Ali Atay</h5>
+              <p className='title'>Aktör / Yönetmen</p>
             </div>
           </div>
           <div className='col-md-6 col-lg-4 item'>
@@ -37,8 +37,8 @@ export default function Testimonials() {
             </div>
             <div className='author'>
               <img className='rounded-circle' src='assets/img/3.jpg' />
-              <h5 className='name'>Carl Kent</h5>
-              <p className='title'>Founder of Style Co.</p>
+              <h5 className='name'>Mehmet Esin</h5>
+              <p className='title'>Style Co. Kurucusu</p>
             </div>
           </div>
           <div className='col-md-6 col-lg-4 item'>
@@ -51,8 +51,8 @@ export default function Testimonials() {
             </div>
             <div className='author'>
               <img className='rounded-circle' src='assets/img/2.jpg' />
-              <h5 className='name'>Emily Clark</h5>
-              <p className='title'>Owner of Creative Ltd.</p>
+              <h5 className='name'>Hazal Deniz</h5>
+              <p className='title'>Creative Ltd. Sahibi</p>
             </div>
           </div>
         </div>

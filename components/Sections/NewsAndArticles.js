@@ -11,8 +11,8 @@ export default function NewsAndArticles() {
                 Makaleler ve Haberler
               </h2>
               <p className='text-center' style={{ marginTop: '0px' }}>
-                Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
-                Vestibulum nibh erat, pellentesque ut laoreet vitae.
+                Burada sizinle paylasmak istedigimiz son gelismeleri, haberleri
+                ve makaleleri gorebilirsiniz.
               </p>
             </div>
           </div>
@@ -31,50 +31,53 @@ export default function NewsAndArticles() {
               </a>
               <p className='post-meta'>
                 Paylasan&nbsp;
-                <a href='#'>Doctor Ad Soyad on December 24, 2021</a>
+                <a href='#'>Doktor Mehmet Ali on 24 Aralik 2021</a>
               </p>
             </div>
             <hr />
             <div className='post-preview'>
               <a href='#'>
                 <h2 className='post-title'>
-                  I believe every human has a finite number of heartbeats. I do
-                  not intend to waste any of mine.
+                  Hayat bize verilip verilebilecek en guzel hediyedir.
                 </h2>
+                <h3 className='post-subtitle'>
+                  Her insanın sınırlı sayıda kalp atışı olduğuna inanıyorum.
+                  Hiçbirini boşa harcamak niyetinde değilim.
+                </h3>
               </a>
               <p className='post-meta'>
-                Posted by&nbsp;
-                <a href='#'>Start Bootstrap on September 18, 2018</a>
+                Paylasan&nbsp;
+                <a href='#'>Doktor Mehmet Ali on 24 Aralik 2021</a>
               </p>
             </div>
             <hr />
             <div className='post-preview'>
               <a href='#'>
                 <h2 className='post-title'>
-                  Science has not yet mastered prophecy
+                  Bilim henüz kehanet konusunda uzmanlaşmadı
                 </h2>
                 <h3 className='post-subtitle'>
-                  We predict too much for the next year and yet far too little
-                  for the next ten.
+                  Gelecek yıl için çok fazla öngörüde bulunuyoruz ama gelecek on
+                  yıl için çok az şey öngörüyoruz.
                 </h3>
               </a>
               <p className='post-meta'>
-                Posted by&nbsp;
-                <a href='#'>Start Bootstrap on August 24, 2018</a>
+                Paylasan&nbsp;
+                <a href='#'>Doktor Mehmet Ali on 24 Aralik 2021</a>
               </p>
             </div>
             <hr />
             <div className='post-preview'>
               <a href='#'>
-                <h2 className='post-title'>Failure is not an option</h2>
+                <h2 className='post-title'>Başarısızlık bir seçenek değil</h2>
                 <h3 className='post-subtitle'>
-                  Many say exploration is part of our destiny, but it’s actually
-                  our duty to future generations.
+                  Pek çok kişi, keşfin kaderimizin bir parçası olduğunu söylüyor
+                  ama aslında bu bizim gelecek nesillere karşı görevimiz.{' '}
                 </h3>
               </a>
               <p className='post-meta'>
-                Posted by&nbsp;
-                <a href='#'>Start Bootstrap on July 8, 2018</a>
+                Paylasan&nbsp;
+                <a href='#'>Doktor Mehmet Ali on 24 Aralik 2021</a>
               </p>
             </div>
             <hr />
@@ -126,7 +129,7 @@ export default function NewsAndArticles() {
                     </div>
                     <div className='buttons'>
                       <a className='btn btn-primary' role='button' href='#'>
-                        Primary
+                        Devam
                       </a>
                     </div>
                   </div>

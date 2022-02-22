@@ -41,6 +41,9 @@ const POST_PAGE_QUERY = gql`
         value
       }
       slug
+      coverImage {
+        url
+      }
     }
   }
 `;
@@ -63,6 +66,9 @@ export async function getStaticProps(context) {
                 heading: data.post.title,
                 subheading: data.post.author.name,
                 subheading2: data.post.date,
+                image: {
+                  url: data.post.coverImage.url,
+                },
               },
             ],
           },

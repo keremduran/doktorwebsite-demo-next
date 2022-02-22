@@ -83,7 +83,7 @@ export default function CompanyIntro() {
                         </a>
                       </div>
                       <div className='col'>
-                        <h3 className='name'>Project Name</h3>
+                        <h3 className='name'>Proje Ismi</h3>
                         <p className='description'>
                           Aenean tortor est, vulputate quis leo in, vehicula
                           rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -102,7 +102,7 @@ export default function CompanyIntro() {
                         </a>
                       </div>
                       <div className='col'>
-                        <h3 className='name'>Project Name</h3>
+                        <h3 className='name'>Proje Ismi</h3>
                         <p className='description'>
                           Aenean tortor est, vulputate quis leo in, vehicula
                           rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -121,7 +121,7 @@ export default function CompanyIntro() {
                         </a>
                       </div>
                       <div className='col'>
-                        <h3 className='name'>Project Name</h3>
+                        <h3 className='name'>Proje Ismi</h3>
                         <p className='description'>
                           Aenean tortor est, vulputate quis leo in, vehicula
                           rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -140,7 +140,7 @@ export default function CompanyIntro() {
                         </a>
                       </div>
                       <div className='col'>
-                        <h3 className='name'>Project Name</h3>
+                        <h3 className='name'>Proje Ismi</h3>
                         <p className='description'>
                           Aenean tortor est, vulputate quis leo in, vehicula
                           rhoncus lacus. Praesent aliquam in tellus eu gravida.

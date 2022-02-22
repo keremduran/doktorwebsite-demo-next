@@ -1,4 +1,16 @@
 body {
   height: 100vh;
+  font-size: 12px !important;
 }
 
+@media screen and (min-width: 320px) {
+  body {
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680)) !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 22px !important;
+  }
+}

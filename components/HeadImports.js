@@ -25,10 +25,6 @@ export default function HeadImports() {
         rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic'
       />
-      <link
-        rel='stylesheet'
-        href='../../assets/bootstrap/css/bootstrap.min.css'
-      />
       <link rel='stylesheet' href='assets/fonts/font-awesome.min.css' />
       <link rel='stylesheet' href='assets/css/Article-List.css' />
       <link rel='stylesheet' href='assets/css/Features-Blue.css' />

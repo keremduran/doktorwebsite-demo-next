@@ -22,8 +22,8 @@ export default function About({ data }) {
                   <div className="row people">
                     <div className="col-md-6 col-lg-4 item">
                       <img className="rounded-circle" src="assets/img/1.jpg" />
-                      <h3 className="name">Ben Johnson</h3>
-                      <p className="title">Musician</p>
+                      <h3 className="name">Mehmet Ali</h3>
+                      <p className="title">Docent Doktor</p>
                       <p className="description">
                         Aenean tortor est, vulputate quis leo in, vehicula
                         rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -44,8 +44,8 @@ export default function About({ data }) {
                     </div>
                     <div className="col-md-6 col-lg-4 item">
                       <img className="rounded-circle" src="assets/img/2.jpg" />
-                      <h3 className="name">Emily Clark</h3>
-                      <p className="title">Artist</p>
+                      <h3 className="name">Demet Kaya</h3>
+                      <p className="title">Doktor</p>
                       <p className="description">
                         Aenean tortor est, vulputate quis leo in, vehicula
                         rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -66,8 +66,8 @@ export default function About({ data }) {
                     </div>
                     <div className="col-md-6 col-lg-4 item">
                       <img className="rounded-circle" src="assets/img/3.jpg" />
-                      <h3 className="name">Carl Kent</h3>
-                      <p className="title">Stylist</p>
+                      <h3 className="name">Burak Deniz</h3>
+                      <p className="title">Doktor</p>
                       <p className="description">
                         Aenean tortor est, vulputate quis leo in, vehicula
                         rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -94,7 +94,7 @@ export default function About({ data }) {
         </div>
         <div className="container">
           <div className="intro">
-            <h2 className="text-center">Features </h2>
+            <h2 className="text-center">Bizi One Cikaranlar</h2>
             <p className="text-center">
               Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
               Vestibulum nibh erat, pellentesque ut laoreet vitae.
@@ -104,78 +104,78 @@ export default function About({ data }) {
             <div className="col-sm-6 col-md-5 col-lg-4 item">
               <div className="box">
                 <i className="fa fa-map-marker icon" />
-                <h3 className="name">Works everywhere</h3>
+                <h3 className="name">Global Servis</h3>
                 <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
                 <a className="learn-more" href="#">
-                  Learn more »
+                  Daha Fazla »
                 </a>
               </div>
             </div>
             <div className="col-sm-6 col-md-5 col-lg-4 item">
               <div className="box">
                 <i className="fa fa-clock-o icon" />
-                <h3 className="name">Always available</h3>
+                <h3 className="name">Randevu Kolayligi</h3>
                 <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
                 <a className="learn-more" href="#">
-                  Learn more »
+                  Daha fazla »
                 </a>
               </div>
             </div>
             <div className="col-sm-6 col-md-5 col-lg-4 item">
               <div className="box">
                 <i className="fa fa-list-alt icon" />
-                <h3 className="name">Customizable </h3>
+                <h3 className="name">Limitsiz Secenekler </h3>
                 <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
                 <a className="learn-more" href="#">
-                  Learn more »
+                  Daha fazla »
                 </a>
               </div>
             </div>
             <div className="col-sm-6 col-md-5 col-lg-4 item">
               <div className="box">
                 <i className="fa fa-leaf icon" />
-                <h3 className="name">Organic </h3>
+                <h3 className="name">Dogallik </h3>
                 <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
                 <a className="learn-more" href="#">
-                  Learn more »
+                  Daha fazla »
                 </a>
               </div>
             </div>
             <div className="col-sm-6 col-md-5 col-lg-4 item">
               <div className="box">
                 <i className="fa fa-plane icon" />
-                <h3 className="name">Fast </h3>
+                <h3 className="name">Uzak ve Konaklama Yardimi </h3>
                 <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
                 <a className="learn-more" href="#">
-                  Learn more »
+                  Daha fazla »
                 </a>
               </div>
             </div>
             <div className="col-sm-6 col-md-5 col-lg-4 item">
               <div className="box">
                 <i className="fa fa-phone icon" />
-                <h3 className="name">Mobile-first</h3>
+                <h3 className="name">Kaliteli Museti Hizmeti</h3>
                 <p className="description">
                   Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                   lacus. Praesent aliquam in tellus eu.
                 </p>
                 <a className="learn-more" href="#">
-                  Learn more »
+                  Daha fazla »
                 </a>
               </div>
             </div>
