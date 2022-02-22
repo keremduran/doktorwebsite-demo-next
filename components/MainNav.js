@@ -6,7 +6,12 @@ export default function MainNav() {
     <nav className='navbar navbar-expand-lg fixed-top' id='mainNav'>
       <div className='container'>
         <Link href='/'>
-          <a className='navbar-brand'>Doktor Demo</a>
+          <a className='navbar-brand'>
+            Doktor Demo
+            <span className='fa-stack fa-lg'>
+              <i className='fa fa-stethoscope fa-stack-1x fa-inverse' />
+            </span>
+          </a>
         </Link>
         <button
           data-bs-toggle='collapse'
