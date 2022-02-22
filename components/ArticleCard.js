@@ -39,7 +39,7 @@ export default function ArticleCard({ props }) {
                   <Image
                     width='60px'
                     height='60px'
-                    class='rounded-circle'
+                    className='rounded-circle'
                     src={props?.author?.picture?.url}
                     alt={props?.author?.name}
                   />
