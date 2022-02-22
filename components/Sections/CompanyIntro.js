@@ -65,7 +65,7 @@ export default function CompanyIntro() {
             <section className='projects-horizontal'>
               <div className='container'>
                 <div className='intro'>
-                  <h2 className='text-center'>Projeler</h2>
+                  <h2 className='text-center'>Makaleler</h2>
                   <p className='text-center'>
                     Nunc luctus in metus eget fringilla. Aliquam sed justo
                     ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.
@@ -83,7 +83,7 @@ export default function CompanyIntro() {
                         </a>
                       </div>
                       <div className='col'>
-                        <h3 className='name'>Proje Ismi</h3>
+                        <h3 className='name'>Makale İsmi</h3>
                         <p className='description'>
                           Aenean tortor est, vulputate quis leo in, vehicula
                           rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -102,7 +102,7 @@ export default function CompanyIntro() {
                         </a>
                       </div>
                       <div className='col'>
-                        <h3 className='name'>Proje Ismi</h3>
+                        <h3 className='name'>Makale İsmi</h3>
                         <p className='description'>
                           Aenean tortor est, vulputate quis leo in, vehicula
                           rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -121,7 +121,7 @@ export default function CompanyIntro() {
                         </a>
                       </div>
                       <div className='col'>
-                        <h3 className='name'>Proje Ismi</h3>
+                        <h3 className='name'>Makale İsmi</h3>
                         <p className='description'>
                           Aenean tortor est, vulputate quis leo in, vehicula
                           rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -140,7 +140,7 @@ export default function CompanyIntro() {
                         </a>
                       </div>
                       <div className='col'>
-                        <h3 className='name'>Proje Ismi</h3>
+                        <h3 className='name'>Makale İsmi</h3>
                         <p className='description'>
                           Aenean tortor est, vulputate quis leo in, vehicula
                           rhoncus lacus. Praesent aliquam in tellus eu gravida.
@@ -162,11 +162,11 @@ export default function CompanyIntro() {
         </div>
         <div id='carousel-1' className='carousel slide' data-bs-ride='carousel'>
           <div className='carousel-inner'>
-            <div className='carousel-item active'>
+            <div className='carousel-item active h-100'>
               <h3>Video Baslik 1</h3>
               <img
                 className='w-100 d-block'
-                src='https://cdn.bootstrapstudio.io/placeholders/1400x800.png'
+                src='https://www.datocms-assets.com/61013/1585207160-image-5-copyright.jpg'
                 alt='Slide Image'
               />
             </div>
@@ -174,7 +174,7 @@ export default function CompanyIntro() {
               <h3>Video Baslik 2</h3>
               <img
                 className='w-100 d-block'
-                src='https://cdn.bootstrapstudio.io/placeholders/1400x800.png'
+                src='https://www.datocms-assets.com/61013/1585207093-image-26-copyright.jpg'
                 alt='Slide Image'
               />
             </div>
@@ -182,7 +182,7 @@ export default function CompanyIntro() {
               <h3>Video Baslik 3</h3>
               <img
                 className='w-100 d-block'
-                src='https://cdn.bootstrapstudio.io/placeholders/1400x800.png'
+                src='https://www.datocms-assets.com/61013/1585207017-image-30-copyright.jpg'
                 alt='Slide Image'
               />
             </div>
